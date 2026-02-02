@@ -118,8 +118,8 @@ function Prediction() {
       if (image) {
         formDataToSend.append('image', image);
       }
-
-      const response = await axios.post('http://localhost:8000/api/predict',
+      const API_URL = import.meta.env.VITE_API_URL;
+      const response = await axios.post('${API_URL}/api/predict',
                      formDataToSend,
                       {
                         headers: {
