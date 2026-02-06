@@ -2,6 +2,8 @@
 
 A full-stack web application for classifying iris flowers using machine learning. Built with React, FastAPI, and scikit-learn.
 
+## 🔗 [Project Demo](https://iris-flower-classification-liard.vercel.app/)
+
 ## Features
 
 - Interactive web interface with sidebar navigation
